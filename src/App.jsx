@@ -31,16 +31,16 @@ export default function App() {
     <>
       <div className="mt-40 flex w-full justify-center rotate-90">
         <div className="bg-black h-32 w-96 rounded-2xl flex items-center">
-          <div className={`${isRed?"bg-red-600":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
-          <div className={`${isYellow?"bg-yellow-300":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
-          <div className={`${isGreen?"bg-green-600":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isRed?"bg-red-600":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isYellow?"bg-yellow-300":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isGreen?"bg-green-600":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
         </div>
       </div>
       <div className="mt-40 flex w-full justify-center">
         <div className="bg-black h-32 w-96 rounded-2xl flex items-center">
-          <div className={`${isRed?"bg-red-600":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
-          <div className={`${isYellow?"bg-yellow-300":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
-          <div className={`${isGreen?"bg-green-600":"bg-gray-600"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isRed?"bg-red-600":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isYellow?"bg-yellow-300":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
+          <div className={`${isGreen?"bg-green-600":"bg-gray-500"} w-28 h-28 ml-3 rounded-full`}></div>
         </div>
       </div>
     </>
