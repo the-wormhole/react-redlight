@@ -31,7 +31,6 @@ export default function App() {
 
   return (
     <>
-    <div> test</div>
       <CompleteLight customClass="rotate-90" isRed={isRed} isYellow={isYellow} isGreen={isGreen}/>
       <CompleteLight isRed={isRed} isYellow={isYellow} isGreen={isGreen}/>
     </>
